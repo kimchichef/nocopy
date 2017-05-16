@@ -1,0 +1,23 @@
+{
+  "name": "nocopy",
+  "main": "nocopy.js",
+  "homepage": "https://github.com/kimchichef/nocopy",
+  "authors": [
+    "kimchichef"
+  ],
+  "description": "use this and selection on web page will be disabled so will contextmenu",
+  "keywords": [
+    "nocopy"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
