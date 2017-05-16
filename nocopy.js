@@ -1,7 +1,8 @@
-$(function () {
-    $('body').bind('contextmenu', function () {
-        return false;
-    });
-    $('body').bind("selectstart", function () { return false; });
-});
-
+(function () {
+  document.oncontextmenu = function () {
+    return false;
+  };
+  document.onselectstart = function () {
+    return false;
+  };
+})();
