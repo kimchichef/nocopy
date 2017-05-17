@@ -24,7 +24,7 @@ gulp.task('build js', () => {
 
 });
 
-gulp.task('default', ['clean', 'js:lint'], () => {
+gulp.task('default', ['clean'], () => {
   gulp.start('build js');
   console.log('hello');
 });
