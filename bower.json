@@ -1,6 +1,6 @@
 {
   "name": "nocopy",
-  "main": "nocopy.js",
+  "main": "dist/nocopy.min.js",
   "homepage": "https://github.com/kimchichef/nocopy",
   "authors": [
     "kimchichef"
