@@ -17,8 +17,13 @@ gulp.task('clean', () => {
 
 gulp.task('build js', () => {
   gulp.src('src/nocopy.js')
-  .pipe(gulp.dest(options.buildPath))
-  .pipe(uglify())
+  // .pipe(gulp.dest(options.buildPath))
+  .pipe(uglify({
+    compress:{
+      // pure_funcs: ['console.log']
+      drop_console:true
+    }
+  }))
   .pipe(rename({ extname: '.min.js'}))
   .pipe(gulp.dest(options.buildPath));
 
